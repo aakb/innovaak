@@ -1,0 +1,6 @@
+# wp config file
+wp-config.php
+
+# upload
+/wp-content/uploads
+

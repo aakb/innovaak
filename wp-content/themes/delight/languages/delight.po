@@ -1,0 +1,586 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: delight\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-16 12:19+0100\n"
+"PO-Revision-Date: 2011-08-16 12:20+0100\n"
+"Last-Translator: Manuel Masia <manuel.masia@consorziocreativo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:43
+msgid "Not Found"
+msgstr ""
+
+#: ../404.php:49
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr ""
+
+#: ../archive.php:46
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:48
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:50
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:52
+#, php-format
+msgid "Author Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:82
+#: ../category.php:78
+#: ../index.php:132
+#: ../page.php:147
+#: ../search.php:64
+#: ../single.php:150
+msgid "Read more"
+msgstr ""
+
+#: ../attachment.php:28
+#: ../page.php:173
+#: ../single-portfolio.php:67
+#: ../single.php:75
+msgid "Edit"
+msgstr ""
+
+#: ../comments.php:11
+msgid "This post is password protected"
+msgstr ""
+
+#: ../comments.php:30
+#, php-format
+msgid "%1$s to &#8220;%2$s&#8221;"
+msgstr ""
+
+#: ../comments.php:49
+msgid "Reply"
+msgstr ""
+
+#: ../comments.php:49
+msgid "Cancel"
+msgstr ""
+
+#: ../comments.php:61
+msgid "Logout"
+msgstr ""
+
+#: ../comments.php:65
+msgid "Name:"
+msgstr ""
+
+#: ../comments.php:68
+msgid "Email:"
+msgstr ""
+
+#: ../comments.php:71
+msgid "Website:"
+msgstr ""
+
+#: ../comments.php:76
+msgid "Comment:"
+msgstr ""
+
+#: ../comments.php:79
+msgid "Leave a comment"
+msgstr ""
+
+#: ../footer.php:58
+msgid "Show thumbs"
+msgstr ""
+
+#: ../footer.php:58
+msgid "Photo Credits"
+msgstr ""
+
+#: ../footer.php:93
+msgid "Video Credits"
+msgstr ""
+
+#: ../header.php:33
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../index.php:191
+#: ../taxonomy.php:27
+msgid "More items"
+msgstr ""
+
+#: ../index.php:292
+#: ../index.php:417
+#: ../taxonomy.php:112
+#: ../taxonomy.php:223
+msgid "All"
+msgstr ""
+
+#: ../index.php:360
+#: ../index.php:530
+#: ../index.php:583
+#: ../index.php:637
+#: ../index.php:691
+#: ../index.php:745
+#: ../single-portfolio.php:160
+#: ../taxonomy.php:178
+#: ../taxonomy.php:323
+#: ../taxonomy.php:376
+#: ../taxonomy.php:430
+#: ../taxonomy.php:483
+#: ../taxonomy.php:537
+msgid "Play video"
+msgstr ""
+
+#: ../index.php:360
+#: ../index.php:530
+#: ../index.php:583
+#: ../index.php:637
+#: ../index.php:691
+#: ../index.php:745
+#: ../single-portfolio.php:160
+#: ../taxonomy.php:178
+#: ../taxonomy.php:323
+#: ../taxonomy.php:376
+#: ../taxonomy.php:430
+#: ../taxonomy.php:483
+#: ../taxonomy.php:537
+msgid "Enlarge picture"
+msgstr ""
+
+#: ../index.php:361
+#: ../index.php:531
+#: ../index.php:584
+#: ../index.php:638
+#: ../index.php:692
+#: ../index.php:746
+#: ../single-portfolio.php:161
+#: ../taxonomy.php:179
+#: ../taxonomy.php:324
+#: ../taxonomy.php:377
+#: ../taxonomy.php:431
+#: ../taxonomy.php:484
+#: ../taxonomy.php:538
+msgid "Go to the attachment page"
+msgstr ""
+
+#: ../page.php:172
+msgid "Pages:"
+msgstr ""
+
+#: ../page.php:180
+#: ../single-portfolio.php:179
+#: ../single.php:166
+msgid "Share"
+msgstr ""
+
+#: ../page.php:193
+#: ../single-portfolio.php:192
+#: ../single.php:179
+msgid "Twitter"
+msgstr ""
+
+#: ../page.php:195
+#: ../single-portfolio.php:194
+#: ../single.php:181
+msgid "Facebook"
+msgstr ""
+
+#: ../page.php:197
+#: ../single-portfolio.php:196
+#: ../single.php:183
+msgid "Del.icio.us"
+msgstr ""
+
+#: ../page.php:199
+#: ../single-portfolio.php:198
+#: ../single.php:185
+msgid "Digg"
+msgstr ""
+
+#: ../page.php:201
+#: ../single-portfolio.php:200
+#: ../single.php:187
+msgid "LinkedIn"
+msgstr ""
+
+#: ../page.php:203
+#: ../single-portfolio.php:202
+#: ../single.php:189
+msgid "StumbleUpon"
+msgstr ""
+
+#: ../search.php:44
+#, php-format
+msgid "Results for: %s"
+msgstr ""
+
+#: ../search.php:71
+#, php-format
+msgid "No results for: %s"
+msgstr ""
+
+#: ../search.php:75
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: ../single-portfolio.php:100
+#: ../single.php:103
+msgid "Related items"
+msgstr ""
+
+#: ../single-portfolio.php:208
+msgid "Credits"
+msgstr ""
+
+#: ../single.php:72
+msgid "Tags: "
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:67
+msgid "Primary menu"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:68
+msgid "Secondary menu"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:104
+msgid "Description"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:105
+msgid "Thumbnail"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:128
+msgid "None"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:669
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:673
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:677
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:754
+msgid "Sorry, there are no info for this photograph"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:786
+msgid "Home"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:861
+msgid "Tag &#39;"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:868
+msgid "Posts by "
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:871
+msgid "Error 404 "
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:875
+#, php-format
+msgid "Results for &#39%s&#39"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:881
+msgid "Page"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:1451
+#, php-format
+msgid "<span>|&nbsp;Posted by %1$s in %2$s</span><span>|&nbsp;<a href=\""
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:1521
+msgid "Uncategorized"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:1543
+#: ../functions/lib/pix_functions.php:1549
+#: ../functions/lib/pix_functions.php:1563
+#: ../functions/lib/pix_functions.php:1589
+#: ../functions/lib/pix_functions.php:1595
+#: ../functions/lib/pix_functions.php:1609
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:1698
+msgid ""
+"<html xmlns=\"http://www.w3.org/1999/xhtml\" dir=\"ltr\" lang=\"en-US\"> \n"
+"<head> \n"
+"\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /> \n"
+"\t<title>WordPress &rsaquo; Error</title> \n"
+"\t<link rel=\"stylesheet\" href=\"http://www.pixedelic.com/themes/delight/wp-admin/css/install.css\" type=\"text/css\" /> \n"
+"</head> \n"
+"<body id=\"error-page\" style=\"height:auto\"> \n"
+"\t<p>You do not have sufficient permissions to access this page.</p>\n"
+"</body> \n"
+"</html> "
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:7
+#: ../functions/lib/pix_post-types.php:8
+#: ../functions/lib/pix_post-types.php:21
+msgid "Portfolio"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:10
+msgid "Add a new item"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:11
+msgid "Edit item"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:12
+msgid "New item"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:13
+msgid "View item"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:46
+msgid "Search Gallery"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:47
+msgid "All Galleries"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:48
+msgid "Parent Gallery"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:49
+msgid "Parent Gallery:"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:50
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:51
+msgid "Update Gallery"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:52
+msgid "Add New Gallery"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:53
+msgid "New Gallery Name"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:54
+#: ../functions/lib/pix_shortcodes.php:704
+msgid "Galleries"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:69
+msgid "Search Image tags"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:70
+msgid "Popular Image tags"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:71
+msgid "All Image tags"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:74
+msgid "Edit Image tag"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:75
+msgid "Update Image tag"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:76
+msgid "Add New Image tag"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:77
+msgid "New Image tag Name"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:78
+msgid "Separate image tags with commas. They will be used for filtering portfolio items"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:79
+msgid "Add or remove image tags"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:80
+msgid "Choose from the most used image tags"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:81
+msgid "Image tags"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:96
+msgid "Search Relationships"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:97
+msgid "Popular Relationships"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:98
+msgid "All Relationships"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:101
+msgid "Edit Relationship"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:102
+msgid "Update Relationship"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:103
+msgid "Add New Relationship"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:104
+msgid "New Relationship Name"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:105
+msgid "Separate relationship with commas. They will be used for related items box"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:106
+msgid "Add or remove relationships"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:107
+msgid "Choose from the most used relationships"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:108
+msgid "Relationships"
+msgstr ""
+
+#: ../functions/lib/pix_shortcodes.php:646
+msgid "Pages"
+msgstr ""
+
+#: ../functions/lib/pix_shortcodes.php:649
+msgid "Show / hide pages"
+msgstr ""
+
+#: ../functions/lib/pix_shortcodes.php:660
+msgid "Categories"
+msgstr ""
+
+#: ../functions/lib/pix_shortcodes.php:663
+msgid "Show / hide categories"
+msgstr ""
+
+#: ../functions/lib/pix_shortcodes.php:675
+msgid "Posts"
+msgstr ""
+
+#: ../functions/lib/pix_shortcodes.php:678
+#: ../functions/lib/pix_shortcodes.php:727
+msgid "Show / hide posts"
+msgstr ""
+
+#: ../functions/lib/pix_shortcodes.php:693
+msgid "Monthly archives"
+msgstr ""
+
+#: ../functions/lib/pix_shortcodes.php:696
+msgid "Show / hide archives"
+msgstr ""
+
+#: ../functions/lib/pix_shortcodes.php:707
+msgid "Show / hide galleries"
+msgstr ""
+
+#: ../functions/lib/pix_shortcodes.php:724
+msgid "Portfolio items"
+msgstr ""
+
+#: ../functions/lib/pix_widgets.php:5
+msgid "Recent posts with thumbnail and control on the excerpt length"
+msgstr ""
+
+#: ../functions/lib/pix_widgets.php:6
+msgid "Pixedelic Recent Posts"
+msgstr ""
+
+#: ../functions/lib/pix_widgets.php:124
+msgid "Create a thumb-gallery from your posts"
+msgstr ""
+
+#: ../functions/lib/pix_widgets.php:125
+msgid "Pixedelic Thumb Gallery"
+msgstr ""
+
+#: ../functions/lib/pix_widgets.php:339
+msgid " on"
+msgstr ""
+
+#: ../functions/lib/pix_widgets.php:339
+msgid "on"
+msgstr ""
+
+#: ../functions/lib/pix_widgets.php:352
+msgid "Add a fading slide show for recent comments"
+msgstr ""
+
+#: ../functions/lib/pix_widgets.php:353
+msgid "Pixedelic Recent Comments"
+msgstr ""
+
+#: ../functions/lib/pix_widgets.php:419
+msgid "Select a form"
+msgstr ""
+
+#: ../functions/lib/pix_widgets.php:420
+msgid "Pixedelic Contact Forms"
+msgstr ""
+
+#: ../functions/lib/pix_widgets.php:476
+msgid "Contact us"
+msgstr ""
+
+#: ../scripts/custom.php:1259
+#: ../scripts/custom.php:1729
+msgid "Loading..."
+msgstr ""
+
+#: ../scripts/custom.php:1730
+msgid "No more items to load"
+msgstr ""
+
