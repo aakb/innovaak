@@ -9,7 +9,7 @@
 <?php if(get_pix_option('pix_footer_show')=='show'){ ?>
         <div>
             	<span id="credits_blog"><a id="logo_bottom" href="<?php echo home_url( '/' ); ?>" title="<?php echo stripslashes(get_pix_option( 'pix_site_title' )); ?>" style="display:block"><?php echo stripslashes(get_pix_option('pix_footer_sitetitle')); ?></a> <?php echo stripslashes(get_pix_option('pix_footer_credits')); ?></span><!-- #credits_blog -->
-                <a style="float:left;width:70px;"  class="qrcode" href="/"><img style="max-width:100%; max-height:100%;" src="http://qrcode.kaywa.com/img.php?s=5&d=http%3A%2F%2Finnovaak.dk" alt="qrcode"  /></a>
+                <a style="float:left;width:70px;"  class="qrcode" href="/"><img style="max-width:80px; max-height:80px;" src="http://innovate.withaarhus.dk/wp-content/uploads/2012/01/qrcode.png" alt="qrcode"  /></a>
     
     <?php 
 		global $custom_options; $meta_image = get_post_meta(get_the_ID(), $custom_options->get_the_id(), TRUE); 

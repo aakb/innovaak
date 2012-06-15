@@ -1,21 +1,22 @@
 <?php 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // WPtouch Core Header Functions
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function wptouch_core_header_enqueue() {
 	$version = get_bloginfo('version'); 
-		if (!bnc_wptouch_is_exclusive()) { 
+	if ( !bnc_wptouch_is_exclusive() ) { 
 	    wp_enqueue_script('jquery-form');
 		wp_enqueue_script('wptouch-core', '' . compat_get_plugin_url( 'wptouch' ) . '/themes/core/core.js', array('jquery'), '1.9.x' );		
 		wp_head(); 
 
-		} elseif ( bnc_wptouch_is_exclusive() ) { 
-			echo "<script src='" . get_bloginfo('wpurl') . "/wp-includes/js/jquery/jquery.js?wptouch' type='text/javascript' charset='utf-8'></script>\n";
-			echo "<script src='" . get_bloginfo('wpurl') . "/wp-includes/js/jquery/jquery.form.js?wptouch' type='text/javascript' charset='utf-8'></script>\n";
-			echo "<script src='" . compat_get_plugin_url( 'wptouch' ) . "/themes/core/core.js?wptouch' type='text/javascript' charset='utf-8'></script>\n"; 
-		}
+	} elseif ( bnc_wptouch_is_exclusive() ) { 
+		echo "<script src='" . get_bloginfo('wpurl') . "/wp-includes/js/jquery/jquery.js?wptouch' type='text/javascript' charset='utf-8'></script>\n";
+		echo "<script src='" . get_bloginfo('wpurl') . "/wp-includes/js/jquery/jquery.form.js?wptouch' type='text/javascript' charset='utf-8'></script>\n";
+		echo "<script src='" . compat_get_plugin_url( 'wptouch' ) . "/themes/core/core.js?wptouch' type='text/javascript' charset='utf-8'></script>\n"; 
 	}
+	
+	do_action( 'wptouch_core_header_enqueue' );
+}
   
 function wptouch_core_header_home() {
 	if (bnc_is_home_enabled()) {
@@ -138,9 +139,7 @@ function wptouch_ordered_tag_list( $num ) {
 	echo '</ul>';
 }
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // WPtouch Core Body Functions
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
 
 function wptouch_core_body_background() {
 	$wptouch_settings = bnc_wptouch_get_settings();
@@ -170,10 +169,7 @@ function wptouch_core_body_result_text() {
 	}
 }
 
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // WPtouch Core Footer Functions
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
 
 function wptouch_core_else_text() {	
 	 global $is_ajax; if (($is_ajax) && !is_search()) {
@@ -195,10 +191,7 @@ function wptouch_core_footer_switch_link() {
 	echo '' . __( "Mobile Theme", "wptouch" ) . ' <a id="switch-link" onclick="wptouch_switch_confirmation();" href="javascript:return false;"></a>';
 }
 
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // WPtouch Standard Functions
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
   
 // Check if certain plugins are active
 function wptouch_is_plugin_active($plugin_filename) {
@@ -270,10 +263,8 @@ if ( bnc_wptouch_is_mobile() && function_exists( 'show_admin_bar' ) ) {
 	add_filter( 'show_admin_bar', '__return_false' );
 }
 
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // WPtouch Filters
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 add_filter( 'post_thumbnail_size', 'wptouch_thumbnail_size' );
 remove_action('wp_head', 'gigpress_head');
 remove_filter('the_excerpt', 'do_shortcode');   

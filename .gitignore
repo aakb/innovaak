@@ -3,4 +3,6 @@ wp-config.php
 
 # upload
 /wp-content/uploads
+/wp-content/w3tc/
+/wp-content/pdf/
 
